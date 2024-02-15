@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cartesianPower from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-power@esm/index.mjs';
+import cartesianPower from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-power@v0.2.0-esm/index.mjs';
 ```
 
 #### cartesianPower( x, n )
@@ -93,7 +93,7 @@ var out = cartesianPower( [ 1, 2 ], 0 );
 <script type="module">
 
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
-import cartesianPower from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-power@esm/index.mjs';
+import cartesianPower from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-power@v0.2.0-esm/index.mjs';
 
 var x = linspace( 0, 5, 6 );
 
