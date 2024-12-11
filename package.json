@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/array-base-resolve-getter": "^0.2.2",
     "@stdlib/math-base-special-pow": "^0.3.0",
-    "@stdlib/types": "^0.4.1"
+    "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
     "@stdlib/array-base-filled-by": "^0.2.2",
