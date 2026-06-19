@@ -1,5 +1,5 @@
-"use strict";var l=function(t,r){return function(){return r||t((r={exports:{}}).exports,r),r.exports}};var n=l(function(j,h){
-var q=require('@stdlib/array-base-resolve-getter/dist'),g=require('@stdlib/math-base-special-pow/dist');function m(t,r){var f,i,o,s,c,v,p,a,e,u;if(v=t.length,v<=0||r<=0)return[];for(f=q(t),c=g(v,r),s=[],a=0;a<r;a++)s.push(0);for(i=[],a=0;a<c;a++){for(u=a,e=r-1;e>=0;e--)p=u%v,u-=p,u/=v,s[e]=p;for(o=[],e=0;e<r;e++)o.push(f(t,s[e]));i.push(o)}return i}h.exports=m
+"use strict";var l=function(t,r){return function(){try{return r||t((r={exports:{}}).exports,r),r.exports}catch(s){throw (r=0, s)}};};var n=l(function(j,h){
+var q=require('@stdlib/array-base-resolve-getter/dist'),g=require('@stdlib/math-base-special-pow/dist');function m(t,r){var s,o,p,u,c,v,f,a,e,i;if(v=t.length,v<=0||r<=0)return[];for(s=q(t),c=g(v,r),u=[],a=0;a<r;a++)u.push(0);for(o=[],a=0;a<c;a++){for(i=a,e=r-1;e>=0;e--)f=i%v,i-=f,i/=v,u[e]=f;for(p=[],e=0;e<r;e++)p.push(s(t,u[e]));o.push(p)}return o}h.exports=m
 });var w=n();module.exports=w;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
